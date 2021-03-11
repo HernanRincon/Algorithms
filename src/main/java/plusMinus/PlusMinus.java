@@ -16,7 +16,7 @@ public class PlusMinus {
 		double zeros = (double) Arrays.stream(arr).filter(fil -> fil == 0).count() / divide;
 		double negative =(double) Arrays.stream(arr).filter(fil -> fil < 0).count() / divide;
 
-		System.out.println(df.format((double)12.33333356666688));
+		System.out.println(df.format(positive));
 		System.out.println(df.format(negative));
 		System.out.println(df.format(zeros));
 	}
