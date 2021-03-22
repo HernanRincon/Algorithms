@@ -33,7 +33,7 @@ public class FormingMagicSquare {
 		int total = 0;
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
-				total = total + Math.absExact(s[i][j] - permutation[i][j]);
+				total = total + Math.abs(s[i][j] - permutation[i][j]);
 			}
 		}
 		costs.add(total);
